@@ -1,8 +1,8 @@
 <template>
   <div>
     home view
-    <router-link to="/test">test</router-link>
-    <my></my>
+
+    <bar-chart />
   </div>
 </template>
 <script lang="ts" setup></script>
