@@ -10,6 +10,8 @@ declare module 'vue' {
   export interface GlobalComponents {
     BarChart: typeof import('./src/components/ui/chart/BarChart.vue')['default']
     My: typeof import('./src/components/ui/my.vue')['default']
+    PieChart: typeof import('./src/components/ui/chart/PieChart.vue')['default']
+    RangeDatePicker: typeof import('./src/components/ui/datePicker/RangeDatePicker.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
